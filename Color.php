@@ -54,7 +54,7 @@ class Color
     private function setRed($red)
     {
         if (!$this->validate($red)) {
-            throw new InvalidArgumentException('uyuy');
+            throw new InvalidArgumentException('This is an exception');
         }
         $this->red = intval($red);
     }
@@ -67,7 +67,7 @@ class Color
     private function setBlue($blue)
     {
         if (!$this->validate($blue)) {
-            throw new InvalidArgumentException('uyuy');
+            throw new InvalidArgumentException('This is an exception');
         }
         $this->blue = intval($blue);
     }
@@ -81,7 +81,7 @@ class Color
     public function setGreen($green)
     {
         if (!$this->validate($green)) {
-            throw new InvalidArgumentException('uyuy');
+            throw new InvalidArgumentException('This is an exception');
         }
         $this->green = intval($green);
     }
